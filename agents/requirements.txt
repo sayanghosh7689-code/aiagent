@@ -1,0 +1,12 @@
+# Runtime dependencies. Version ranges are conservative lower bounds + next-major caps.
+# After a successful run in your environment, replace with exact pins:  pip freeze > requirements.lock
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0,<3.0
+psycopg2-binary>=2.9
+python-multipart>=0.0.9
+pypdf>=4.0
+chromadb>=0.5
+huggingface_hub>=0.23
+streamlit>=1.35
+requests>=2.31
